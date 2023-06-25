@@ -1,15 +1,9 @@
 
 
-#setwd("/home/irri-hub/Downloads/rp")
 #library(seqinr)
 #library(stringr)
 #library(dplyr)
-#all <- read.fasta("all_pr.fas")
-#final_primer_filter2 <- read.csv("preeti_snpeff.csv",header = T)
-#gene <- final_primer_filter2$gene_id
-#gene <- unique(gene)
-#final_prim<- list()
-#coln<- colnames(final_primer_filter2)
+
 
 kaspprimer <- function(ref.fasta, snp.table, stream){
   all <- read.fasta(ref.fasta)
@@ -145,7 +139,6 @@ updown <- stream
 }
 
 }
-#filter_primer <- bind_rows(final_prim)
-#write.csv(filter_primer,file = "preeti_kasp_res.csv",row.names = F)
+
 
 
