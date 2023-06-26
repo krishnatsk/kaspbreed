@@ -1,0 +1,6 @@
+    importFrom("utils", "read.csv")
+    importFrom("seqinr", "read.fasta")
+    importFrom("dplyr","%>%")
+    importFrom("stringr","str_count")
+        importFrom("utils", "write.csv")       
+         importFrom("dplyr", "bind_rows")
