@@ -1,0 +1,11 @@
+Package: kaspbreed
+Type: Package
+Title: Dna template extraction for Kasp primer designing
+Version: 0.1.0
+Author: Krishna T Sundaram
+Maintainer: The package maintainer <krishnats19992@gmail.com>
+Description: Kaspbreed package can automate your dna template extraction from snp information mapped to your genome to create dna templates from upstream and downstream of targeted snp position. It is useful for particularly for breeders use of applications in kasp assay when they involve genomic selection and other breeding programs. 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: seqinr, dplyr, stringr
