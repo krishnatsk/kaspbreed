@@ -5,4 +5,8 @@ R package to directly take snp to take upstream and downstream sequences. this w
 # How to use
 
 
+#...In Development...
+
+
+
 
